@@ -1,0 +1,244 @@
+@media (min-width: 300px) and (max-width: 599px) {
+  .paper-search {
+    width: 100%;
+    padding: 0;
+  }
+  .react-autosuggest__input {
+    width: 250px;
+    /* background-color: yellow !important; */
+    padding: 0;
+  }
+  .dialog-title {
+    width: 75%;
+    float: left;
+  }
+  .button-close {
+    width: 10%;
+    float: left;
+  }
+  .react-autosuggest__input {
+    width: 270px;
+    /* background-color: yellow !important; */
+    padding: 0;
+  }
+  .container-autocomplete {
+    position: left;
+    width: 100%;
+    height: 240px !important;
+  }
+  .container-form-rekam-medis {
+    width: 100%;
+    position: left;
+    margin-top: 140px !important;
+    padding: 0px 17px 0px 20px !important;
+  }
+
+  .title-list-riwayat {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+  }
+  .t-label {
+    font-size: 11px;
+    margin-top: 30px !important;
+    margin-bottom: 2px;
+    width: 100%;
+    text-align: left;
+    color: #000;
+  }
+  .text2 Label,
+  .text3 Label,
+  .text3-date Label,
+  .text4 Label,
+  .text5 Label,
+  .text6 Label,
+  .text7 Label {
+    font-size: 11px;
+    margin: 0;
+    color: blue;
+  }
+  .murmur-style {
+    width: 100%;
+    padding: 5px 2px;
+    margin: 5px 2px;
+    border: 1px solid #d4d4d4;
+  }
+  .container-obat {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  /* .makeStyles-root-2 {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+  } */
+}
+@media (min-width: 600px) and (max-width: 767px) {
+  .paper-search {
+    width: 100%;
+  }
+  .dialog-title {
+    width: 75%;
+    float: left;
+  }
+  .button-close {
+    width: 10%;
+    float: left;
+  }
+  s .react-autosuggest__input {
+    width: 280px;
+    /* background-color: greenyellow; */
+  }
+  .react-autosuggest__input {
+    width: 270px;
+    /* background-color: greenyellow; */
+  }
+  .text2 Label,
+  .text3 Label,
+  .text3-date Label,
+  .text4 Label,
+  .text5 Label,
+  .text6 Label,
+  .text7 Label {
+    font-size: 10px;
+    margin: 0;
+    color: blue;
+  }
+
+  .title-list-riwayat {
+    width: 100%;
+    float: left;
+    text-align: left;
+    margin: 0 0 20px 0;
+    font-weight: bold;
+  }
+  .container-form-rekam-medis {
+    width: 100%;
+    position: left;
+    padding: 0px 17px 0px 20px !important;
+    margin-top: 30px;
+  }
+  .container-obat {
+    padding: 20px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  /* .makeStyles-root-2 {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+  } */
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .paper-search {
+    width: 384px;
+  }
+  .dialog-title {
+    width: 75%;
+    float: left;
+  }
+  .button-close {
+    width: 10%;
+    float: left;
+  }
+
+  .react-autosuggest__input {
+    width: 354px;
+    /* background-color: blue; */
+  }
+  .react-autosuggest__input {
+    width: 354px;
+    /* background-color: red; */
+  }
+  .container-form-rekam-medis {
+    width: 100%;
+    position: left;
+    padding: 0px 17px 0px 20px !important;
+  }
+  .murmur-style {
+    width: 63px;
+    padding: 5px 2px;
+    margin: 5px 2px;
+    border: 1px solid #d4d4d4;
+  }
+  /* .makeStyles-root-2 {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+  } */
+}
+@media (min-width: 992px) and (max-width: 1299px) {
+  .paper-search {
+    width: 98%;
+  }
+
+  .react-autosuggest__input {
+    width: 460px;
+    /* background-color: red; */
+  }
+  .react-autosuggest__input {
+    width: 480px;
+    /* background-color: red; */
+  }
+  .t-label {
+    font-size: 11px;
+    margin-bottom: 2px;
+    width: 100%;
+    color: #000;
+  }
+  .container-form-rekam-medis {
+    width: 100%;
+    position: left;
+    padding: 0px 17px 0px 20px !important;
+  }
+  .murmur-style {
+    width: 63px;
+    padding: 5px 2px;
+    margin: 5px 2px;
+    border: 1px solid #d4d4d4;
+  }
+  /* .makeStyles-root-2 {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+  } */
+}
+
+@media (min-width: 1300px) {
+  .paper-search {
+    width: 98%;
+  }
+
+  .react-autosuggest__input {
+    width: 640px;
+    /* background-color: orange; */
+  }
+  .react-autosuggest__input {
+    width: 640px;
+    /* background-color: red; */
+  }
+  .container-form-rekam-medis {
+    width: 100%;
+    position: left;
+    padding: 0px 17px 0px 20px !important;
+  }
+  .murmur-style {
+    width: 63px;
+    padding: 5px 2px;
+    margin: 5px 2px;
+    border: 1px solid #d4d4d4;
+  }
+  /* .makeStyles-root-2 {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+  } */
+}

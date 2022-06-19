@@ -1,0 +1,13 @@
+# dependencies
+node_modules
+
+
+#env
+.env
+
+#readme
+README.md
+
+
+#build
+build

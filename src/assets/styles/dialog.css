@@ -1,0 +1,100 @@
+.dialog-action {
+  width: 100%;
+}
+.dialog-title {
+  width: 80%;
+  float: left;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 15px 0 0 0 !important;
+  margin: 0 30px 0 0 !important;
+  line-height: 20px;
+}
+.button-close {
+  float: right !important;
+  font-size: 12px;
+}
+.button-close:hover {
+  color: red;
+}
+
+.button-add {
+  font-size: 9px !important;
+  margin: 10px 20px !important;
+  padding: 5px !important;
+  background-color: #3f51b4 !important;
+  color: #fff !important;
+  border-radius: 10px !important;
+}
+.button-add:hover {
+  background-color: #fff !important;
+  color: #3f51b4 !important;
+  border: 1px solid #3f51b4;
+}
+.button-add-obat {
+  font-size: 12px !important;
+  margin: 15px 20px !important;
+  padding: 5px !important;
+  background-color: #3f51b4 !important;
+  color: #fff !important;
+  border-radius: 5px !important;
+}
+.button-add-obat:hover {
+  background-color: #fff !important;
+  color: #3f51b4 !important;
+  border: 1px solid #3f51b4;
+}
+.button-iya {
+  width: 10px !important;
+  background-color: #3f51b4 !important;
+  color: #fff !important;
+  margin: 0 15px 0 0 !important;
+}
+.button-iya:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+  border: 1px solid #000;
+}
+.button-tidak {
+  background-color: red !important;
+  color: #fff !important;
+}
+.button-tidak:hover {
+  background-color: #fff !important;
+  color: red !important;
+  border: 1px solid #000;
+}
+.button-konfirmasi {
+  width: 20%;
+  float: left;
+  padding: 10px 0;
+  color: #000;
+  text-align: center;
+  margin: 0 auto;
+}
+.button-konfirmasi:hover {
+  background-color: #fff !important;
+  color: red !important;
+}
+.dialog-konfirmasi {
+  padding: 10px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.dialog-title-konfirmasi {
+  width: 100%;
+  padding: 10px;
+}
+.dialog-title-konfirmasi h3 {
+  width: 80%;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  float: left;
+}
+.alert-dialog {
+  font-size: 9px;
+  color: red;
+  margin: 10px 0 0 10px;
+  float: left;
+}
