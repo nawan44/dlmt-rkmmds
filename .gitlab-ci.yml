@@ -9,16 +9,16 @@ deploy_dev:
     - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
     - mkdir -p ~/.ssh
     - chmod 700 ~/.ssh
-    - ssh-keyscan 192.168.132.202 >> ~/.ssh/known_hosts
+    #- ssh-keyscan 192.168.132.202 >> ~/.ssh/known_hosts
     - chmod 644 ~/.ssh/known_hosts
     - npm install
   script:
     - echo "REACT_APP_URL=$REACT_APP_URL" > .env
     - CI=false npm run build
-    - scp -r ./build/ medrec@192.168.132.202:~/rekam-medis-frontend/
-    - ssh medrec@192.168.132.202 "pm2 restart rekam-medis-frontend"
+    #- scp -r ./build/ medrec@192.168.132.202:~/rekam-medis-frontend/
+    #- ssh medrec@192.168.132.202 "pm2 restart rekam-medis-frontend"
   only:
     - master
   environment: 
     name: production
-    url: http://rekammedis.delameta.com
+    #url: http://rekammedis.delameta.com
